@@ -1,9 +1,26 @@
+html {
+    font-family: sans-serif;
+}
+
+/*nav bar*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+
 #nav-bar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: beige;
+    background-color: #D0D6B3;
+}
+
+.nav-link {
+    color: #143109;
+    text-decoration: none;
 }
 
 #section-video {

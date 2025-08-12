@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #F7F7F7;
+    background-color: #d1d2c6;
 }
 
 /*nav bar*/
@@ -30,7 +30,7 @@ body {
 #nav-links {
     width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 #nav-bar {
@@ -47,6 +47,15 @@ body {
     color: #143109;
     text-decoration: none;
 }
+
+#nav-links .nav-link {
+    padding: 0 3rem;
+    border-left: 1px solid black;
+}
+#nav-links .nav-link:last-of-type {
+    border-right: 1px solid black;
+}
+
 
 #section-video {
     display: flex;

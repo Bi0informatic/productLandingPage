@@ -72,6 +72,23 @@ body {
     justify-content: center;
 }
 
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+#header-img {
+    margin-top: -20rem;
+}
+
+#header-img-h2 {
+    position: relative;
+    top: 7.5rem;
+    left: 45rem;
+    width: 50%;
+    z-index: -1;
+}
+
 @media only screen and (max-width: 720px) {
     p {
         font-size: small;

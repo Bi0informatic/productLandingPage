@@ -2,12 +2,22 @@ html {
     font-family: sans-serif;
 }
 
-/*nav bar*/
-
 body {
     margin: 0;
     padding: 0;
     background-color: #F7F7F7;
+}
+
+/*nav bar*/
+
+#logo {
+    padding: 0.5rem;
+}
+
+#nav-links {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #nav-bar {
@@ -16,6 +26,8 @@ body {
     left: 0;
     width: 100%;
     background-color: #D0D6B3;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link {

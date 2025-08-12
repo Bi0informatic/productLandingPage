@@ -3,7 +3,8 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: POPPINS, sans-serif;
+    scroll-behavior: smooth;
 }
 
 main {
@@ -93,4 +94,10 @@ figure {
     p {
         font-size: small;
     }
+}
+
+@font-face {
+    font-family: POPPINS;
+    src: url(fonts/poppins/Poppins-Regular.ttf);
+
 }

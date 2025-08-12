@@ -65,9 +65,12 @@ body {
 }
 
 
-#section-video {
+#production {
     display: flex;
+    width: 100vw;
 }
+
+
 
 #video {
     justify-content: center;

@@ -1,2 +1,2 @@
 # Introduction
-This project aims to recreate a product landing page using only HTML and CSS.
+This project aims to create a product landing  for lemons using only HTML and CSS.

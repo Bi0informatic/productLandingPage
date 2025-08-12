@@ -1,3 +1,7 @@
+:root {
+    --border-test: 1px solid red;
+}
+
 html {
     font-family: sans-serif;
 }
@@ -11,7 +15,16 @@ body {
 /*nav bar*/
 
 #logo {
-    padding: 0.5rem;
+    padding: 0.4rem;
+}
+
+#logo-title {
+    display: inline;
+    padding-top: 0.5rem;
+}
+
+#nav-title {
+    display:flex;
 }
 
 #nav-links {

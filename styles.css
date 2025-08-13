@@ -65,16 +65,10 @@ body {
 }
 
 
-#production {
-    display: flex;
-    width: 100vw;
+#production-img-h2 {
+    padding-top: 5rem;
 }
 
-
-
-#video {
-    justify-content: center;
-}
 
 figure {
     margin: 0;
